@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BootCamper</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/animation.css">
+    <link rel="stylesheet" href="styles/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<body>
+    <header class="haeder">
+        <nav class="navigation">
+            <div class="logo">
+                <svg width="101" height="104" viewBox="0 0 101 104" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M89.4042 39.174L89.3416 39.1115C89.3365 39.108 89.3325 39.1033 89.33 39.0979L50.233 0L11.1365 39.0969C11.132 39.1014 11.1295 39.1075 11.125 39.1105L11.0604 39.173C5.08206 45.1849 1.28473 53.0228 0.272161 61.4407C-0.740412 69.8587 1.08987 78.3736 5.47203 85.6319C9.85422 92.8903 16.5368 98.4757 24.4575 101.5C32.3781 104.524 41.0824 104.813 49.1864 102.322C49.8684 102.113 50.5973 102.113 51.2793 102.322C59.3827 104.812 68.0864 104.522 76.0066 101.498C83.9268 98.4737 90.6087 92.8888 94.9906 85.6309C99.3725 78.3731 101.203 69.8587 100.191 61.4412C99.1786 53.0238 95.3818 45.186 89.4042 39.174ZM25.0387 64.9558C24.8484 65.1461 24.6975 65.3723 24.5946 65.6207C24.4916 65.8691 24.4386 66.1356 24.4386 66.4047C24.5082 73.3051 26.4583 80.0556 30.0791 85.9303C30.1614 86.0636 30.1994 86.2196 30.1877 86.3755C30.176 86.5315 30.1153 86.68 30.0141 86.7996C29.913 86.9192 29.7767 87.0035 29.6246 87.0409C29.4726 87.0783 29.3126 87.0667 29.1676 87.0076C26.4456 85.8626 23.9728 84.1982 21.8874 82.1078C17.6139 77.8334 15.2114 72.0375 15.2075 65.9932C15.2036 59.949 17.5987 54.15 21.8668 49.8705L50.233 21.5069L78.5979 49.8705C82.8667 54.1495 85.2626 59.9485 85.2586 65.9932C85.255 72.0375 82.8521 77.8334 78.5782 82.1078C76.4928 84.1982 74.0201 85.8626 71.2986 87.0076C71.1532 87.0667 70.9932 87.0783 70.8413 87.0409C70.6893 87.0035 70.553 86.9187 70.4515 86.7996C70.3506 86.68 70.2895 86.5315 70.2779 86.375C70.2663 86.2191 70.3041 86.0631 70.3864 85.9298C74.008 80.0556 75.9592 73.3051 76.0299 66.4047C76.0299 66.1356 75.9763 65.869 75.8728 65.6202C75.7694 65.3713 75.6179 65.1456 75.4271 64.9553L62.0104 50.7243C61.8766 50.6127 61.7085 50.5517 61.5343 50.5517C61.3606 50.5517 61.192 50.6127 61.0588 50.7243C60.925 50.8354 60.8351 50.9903 60.8038 51.1615C60.7725 51.3326 60.8023 51.5088 60.8881 51.6603C66.0989 61.0899 61.6181 74.6343 54.1457 82.1078L54.1063 82.1471C53.075 83.1674 51.6826 83.7394 50.232 83.7388C48.7812 83.7383 47.3893 83.1654 46.3587 82.1446L46.3224 82.1078C38.8472 74.6343 34.3687 61.0914 39.5804 51.6623C39.6661 51.5108 39.6959 51.3346 39.6647 51.1635C39.6336 50.9924 39.5434 50.8374 39.4098 50.7263C39.2763 50.6148 39.108 50.5537 38.9341 50.5537C38.7601 50.5537 38.5917 50.6148 38.4582 50.7263L25.0387 64.9558Z" fill="url(#paint0_linear_206:3)"/>
+                    <defs>
+                    <linearGradient id="paint0_linear_206:3" x1="50.2282" y1="8.57555" x2="50.2282" y2="104.132" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#551AFE"/>
+                    <stop offset="1" stop-color="#FE1A95"/>
+                    </linearGradient>
+                    </defs>
+                    </svg>
+            </div>
+            <ul class="nav-items">
+                <li class="nav-item">
+                    <a href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">Free Bootcamps</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">Blogs</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">About</a>
+                </li>
+            </ul>
+            <div class="cart">
+                <img src="img/trolley.svg" alt="">
+                <div class="number">6</div>
+            </div>
+            <div class="burger-menu">
+                <img src="img/burger.png" alt="">
+            </div>
+        </nav>
+
+        <div class="header-content">
+            <div class="left">
+                <div class="left-content">
+                    <h4 class="small-title">FEATURED COURSE</h4>
+                    <h1>
+                        Run your own online learning platform
+                    </h1>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae maiores 
+                        vero soluta accusantium 
+                        consectetur mollitia!
+                    </p>
+                    <p class="name">Maclinz Universal</p>
+                    <a href="#" class="btn main-btn">Discover More</a>
+                </div>
+            </div>
+            <div class="right">
+                <img src="img/hero.png" class="hero" alt="">
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="section featured">
+            <div class="title">
+                <h2 class="title2">Featured Courses</h2>
+            </div>
+            <p class="featured-para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio eius fugit 
+                veritatis tempore? Dicta ipsam vero corrupti adipisci cum nesciunt.
+            </p>
+            <div class="btn-con">
+                <a href="#" class="btn main-btn">View All Courses</a>
+            </div>
+
+            <!-- Cards-->
+            <div class="cards-con">
+                <div class="card">
+                    <div class="image">
+                        <img src="img/course1.jpg" alt="">
+                        <span class="price">$44.99</span>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-s-title">
+                            category
+                        </p>
+                        <h5 class="card-title">How To Create Unique Designs</h5>
+                        <p class="card-desc">
+                            Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cu.
+                        </p>
+                        <div class="rating">
+                            <div class="stars">
+                                <img src="img/star.svg" alt="">
+                                <img src="img/star.svg" alt="">
+                                <img src="img/star.svg" alt="">
+                                <img src="img/star.svg" alt="">
+                                <img src="img/star_half.svg" alt="">
+                            </div>
+                            <div class="reviews">
+                                <p>(450)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-bottom">
+                        <div class="duration">
+                            <div class="time">
+                                <img src="img/time.svg" alt="">
+                                <p>4h 45min</p>
+                            </div>
+                            <div class="likes">
+                                <img src="img/heart.svg" alt="">
+                                <p>1.5K</p>
+                            </div>
+                        </div>
+                        <a href="#" class="btn-enrol">Enroll Now</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="img/course2.jpg" alt="">
+                        <span class="price">$29.99</span>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-s-title">
+                            category
+                        </p>
+                        <h5 class="card-title">How To Create Unique Designs</h5>
+                        <p class="card-desc">
+                            Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cu.
+                        </p>
+                        <div class="rating">
+                            <div class="stars">
+                                <img src="img/star.svg" alt="">
+                                <img src="img/star.svg" alt="">
+                                <img src="img/star.svg" alt="">
+                                <img src="img/star.svg" alt="">
+                                <img src="img/star_half.svg" alt="">
+                            </div>
+                            <div class="reviews">
+                                <p>(450)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-bottom">
+                        <div class="duration">
+                            <div class="time">
+                                <img src="img/time.svg" alt="">
+                                <p>4h 45min</p>
+                            </div>
+                            <div class="likes">
+                                <img src="img/heart.svg" alt="">
+                                <p>1.5K</p>
+                            </div>
+                        </div>
+                        <a href="#" class="btn-enrol">Enroll Now</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="img/course3.jpg" alt="">
+                        <span class="price">$20.99</span>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-s-title">
+                            category
+                        </p>
+                        <h5 class="card-title">How To Create Unique Designs</h5>
+                        <p class="card-desc">
+                            Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cu.
+                        </p>
+                        <div class="rating">
+                            <div class="stars">
+                                <img src="img/star.svg" alt="">
+                                <img src="img/star.svg" alt="">
+                                <img src="img/star.svg" alt="">
+                                <img src="img/star.svg" alt="">
+                                <img src="img/star.svg" alt="">
+                            </div>
+                            <div class="reviews">
+                                <p>(3K)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-bottom">
+                        <div class="duration">
+                            <div class="time">
+                                <img src="img/time.svg" alt="">
+                                <p>1h 20min</p>
+                            </div>
+                            <div class="likes">
+                                <img src="img/heart.svg" alt="">
+                                <p>1.9K</p>
+                            </div>
+                        </div>
+                        <a href="#" class="btn-enrol">Enroll Now</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="img/course2.jpg" alt="">
+                        <span class="price">$50.99</span>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-s-title">
+                            category
+                        </p>
+                        <h5 class="card-title">How To Create Unique Designs</h5>
+                        <p class="card-desc">
+                            Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cu.
+                        </p>
+                        <div class="rating">
+                            <div class="stars">
+                                <img src="img/star.svg" alt="">
+                                <img src="img/star.svg" alt="">
+                                <img src="img/star.svg" alt="">
+                                <img src="img/star_empty.svg" alt="">
+                                <img src="img/star_empty.svg" alt="">
+                            </div>
+                            <div class="reviews">
+                                <p>(150)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-bottom">
+                        <div class="duration">
+                            <div class="time">
+                                <img src="img/time.svg" alt="">
+                                <p>7h 45min</p>
+                            </div>
+                            <div class="likes">
+                                <img src="img/heart.svg" alt="">
+                                <p>900K</p>
+                            </div>
+                        </div>
+                        <a href="#" class="btn-enrol">Enroll Now</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="img/course4.jpg" alt="">
+                        <span class="price">$3.50</span>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-s-title">
+                            category
+                        </p>
+                        <h5 class="card-title">How To Create Unique Designs</h5>
+                        <p class="card-desc">
+                            Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cu.
+                        </p>
+                        <div class="rating">
+                            <div class="stars">
+                                <img src="img/star.svg" alt="">
+                                <img src="img/star.svg" alt="">
+                                <img src="img/star.svg" alt="">
+                                <img src="img/star.svg" alt="">
+                                <img src="img/star.svg" alt="">
+                            </div>
+                            <div class="reviews">
+                                <p>(5.7K)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-bottom">
+                        <div class="duration">
+                            <div class="time">
+                                <img src="img/time.svg" alt="">
+                                <p>4h 45min</p>
+                            </div>
+                            <div class="likes">
+                                <img src="img/heart.svg" alt="">
+                                <p>15K</p>
+                            </div>
+                        </div>
+                        <a href="#" class="btn-enrol">Enroll Now</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="img/course5.jpg" alt="">
+                        <span class="price">$7.99</span>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-s-title">
+                            category
+                        </p>
+                        <h5 class="card-title">How To Create Unique Designs</h5>
+                        <p class="card-desc">
+                            Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cu.
+                        </p>
+                        <div class="rating">
+                            <div class="stars">
+                                <img src="img/star.svg" alt="">
+                                <img src="img/star.svg" alt="">
+                                <img src="img/star.svg" alt="">
+                                <img src="img/star.svg" alt="">
+                                <img src="img/star_half.svg" alt="">
+                            </div>
+                            <div class="reviews">
+                                <p>(300)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-bottom">
+                        <div class="duration">
+                            <div class="time">
+                                <img src="img/time.svg" alt="">
+                                <p>7h 45min</p>
+                            </div>
+                            <div class="likes">
+                                <img src="img/heart.svg" alt="">
+                                <p>1.7K</p>
+                            </div>
+                        </div>
+                        <a href="#" class="btn-enrol">Enroll Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section2">
+            <div class="left">
+
+            </div>
+            <div class="right">
+                <div class="right-content">
+                    <div class="title">
+                        <h2 class="title2">Get personalized learning recommendations</h2>
+                    </div>
+                    <p class="featured-para">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Distinctio eius fugit veritatis tempore? Dicta ipsam vero corrupti adipisci 
+                        cum nesciunt. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <div class="btn-con">
+                        <a href="#" class="btn main-btn">View All Courses</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section bootcamp-section">
+            <div class="title">
+                <h2 class="title2">Upcoming Free Bootcamps</h2>
+            </div>
+            <p class="featured-para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio eius fugit 
+                veritatis tempore? Dicta ipsam vero corrupti adipisci cum nesciunt.
+            </p>
+            <div class="btn-con">
+                <a href="#" class="btn main-btn">View All Courses</a>
+            </div>
+
+            <div class="bootcamps">
+                <div class="bootcamp">
+                    <div class="b-camp-content">
+                        <h5>Font-End Bootcamp</h5>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                            Magnam soluta repudiandae perferendis animi rem, incidunt, asperiores 
+                            iure temporibus voluptatum ducimus quam porro itaque! Eligendi, itaque. 
+                            
+                        </p>
+                        <a href="#" class="btn-enrol">Learn More</a>
+                    </div>
+                </div>
+                <div class="bootcamp">
+                    <div class="b-camp-content">
+                        <h5>Graphics Design Bootcamp</h5>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                            Magnam soluta repudiandae perferendis animi rem, incidunt, asperiores 
+                            iure temporibus voluptatum ducimus quam porro itaque! Eligendi, itaque. 
+                            
+                        </p>
+                        <a href="#" class="btn-enrol">Learn More</a>
+                    </div>
+                </div>
+                <div class="bootcamp">
+                    <div class="b-camp-content">
+                        <h5>Web Dev Bootcamp</h5>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                            Magnam soluta repudiandae perferendis animi rem, incidunt, asperiores 
+                            iure temporibus voluptatum ducimus quam porro itaque! Eligendi, itaque. 
+                            
+                        </p>
+                        <a href="#" class="btn-enrol">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section reviews-section">
+            <div class="reviews-content">
+                <div class="stars">
+                    <img src="img/star.svg" alt="">
+                    <img src="img/star.svg" alt="">
+                    <img src="img/star.svg" alt="">
+                    <img src="img/star.svg" alt="">
+                    <img src="img/star_empty.svg" alt="">
+                </div>
+                <p class="review-text">
+                    "Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Tempore, ea sunt saepe laboriosam tenetur, 
+                    illo ut rerum quos alias ipsum distinctio voluptates debitis?"
+                </p>
+                <p class="review-name">Lorem Ipsum, Student</p>
+                <div class="dots">
+                    <div class="dot"></div>
+                    <div class="dot2"></div>
+                    <div class="dot3" ></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section blogs-section">
+            <div class="title">
+                <h2 class="title2">Recent Blogs</h2>
+            </div>
+            <p class="featured-para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio eius fugit 
+                veritatis tempore? Dicta ipsam vero corrupti adipisci cum nesciunt.
+            </p>
+            <div class="btn-con">
+                <a href="#" class="btn main-btn">View All Courses</a>
+            </div>
+
+            <div class="blogs-con">
+                <div class="blog">
+                    <img src="img/yt.jpg" alt="">
+                    <div class="blog-content">
+                        <p class="b-date">March 10th, 2021</p>
+                        <h4 class="b-title">
+                            The Twitter: How to Get More Likes and Followers
+                        </h4>
+                        <p class="b-name">Lorem Ipsum</p>
+                    </div>
+                </div>
+                <div class="blog">
+                    <img src="img/course2.jpg" alt="">
+                    <div class="blog-content">
+                        <p class="b-date">March 10th, 2021</p>
+                        <h4 class="b-title">
+                            The Twitter: How to Get More Likes and Followers
+                        </h4>
+                        <p class="b-name">Lorem Ipsum</p>
+                    </div>
+                </div>
+                <div class="blog">
+                    <img src="img/course4.jpg" alt="">
+                    <div class="blog-content">
+                        <p class="b-date">March 10th, 2021</p>
+                        <h4 class="b-title">
+                            The Twitter: How to Get More Likes and Followers
+                        </h4>
+                        <p class="b-name">Lorem Ipsum</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section contact-section">
+            <div class="contact-tab">
+                <div class="c-tab-content">
+                    <h2 class="c-title">
+                        You have the power to define your future.
+                    </h2>
+                    <div class="input-control">
+                        <input type="email" required placeholder="EMAIL ADDRESS">
+                        <button class="btn btn-submit">Submit</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom-nav">
+                <div class="logo">
+                    <svg width="101" height="104" viewBox="0 0 101 104" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M89.4042 39.174L89.3416 39.1115C89.3365 39.108 89.3325 39.1033 89.33 39.0979L50.233 0L11.1365 39.0969C11.132 39.1014 11.1295 39.1075 11.125 39.1105L11.0604 39.173C5.08206 45.1849 1.28473 53.0228 0.272161 61.4407C-0.740412 69.8587 1.08987 78.3736 5.47203 85.6319C9.85422 92.8903 16.5368 98.4757 24.4575 101.5C32.3781 104.524 41.0824 104.813 49.1864 102.322C49.8684 102.113 50.5973 102.113 51.2793 102.322C59.3827 104.812 68.0864 104.522 76.0066 101.498C83.9268 98.4737 90.6087 92.8888 94.9906 85.6309C99.3725 78.3731 101.203 69.8587 100.191 61.4412C99.1786 53.0238 95.3818 45.186 89.4042 39.174ZM25.0387 64.9558C24.8484 65.1461 24.6975 65.3723 24.5946 65.6207C24.4916 65.8691 24.4386 66.1356 24.4386 66.4047C24.5082 73.3051 26.4583 80.0556 30.0791 85.9303C30.1614 86.0636 30.1994 86.2196 30.1877 86.3755C30.176 86.5315 30.1153 86.68 30.0141 86.7996C29.913 86.9192 29.7767 87.0035 29.6246 87.0409C29.4726 87.0783 29.3126 87.0667 29.1676 87.0076C26.4456 85.8626 23.9728 84.1982 21.8874 82.1078C17.6139 77.8334 15.2114 72.0375 15.2075 65.9932C15.2036 59.949 17.5987 54.15 21.8668 49.8705L50.233 21.5069L78.5979 49.8705C82.8667 54.1495 85.2626 59.9485 85.2586 65.9932C85.255 72.0375 82.8521 77.8334 78.5782 82.1078C76.4928 84.1982 74.0201 85.8626 71.2986 87.0076C71.1532 87.0667 70.9932 87.0783 70.8413 87.0409C70.6893 87.0035 70.553 86.9187 70.4515 86.7996C70.3506 86.68 70.2895 86.5315 70.2779 86.375C70.2663 86.2191 70.3041 86.0631 70.3864 85.9298C74.008 80.0556 75.9592 73.3051 76.0299 66.4047C76.0299 66.1356 75.9763 65.869 75.8728 65.6202C75.7694 65.3713 75.6179 65.1456 75.4271 64.9553L62.0104 50.7243C61.8766 50.6127 61.7085 50.5517 61.5343 50.5517C61.3606 50.5517 61.192 50.6127 61.0588 50.7243C60.925 50.8354 60.8351 50.9903 60.8038 51.1615C60.7725 51.3326 60.8023 51.5088 60.8881 51.6603C66.0989 61.0899 61.6181 74.6343 54.1457 82.1078L54.1063 82.1471C53.075 83.1674 51.6826 83.7394 50.232 83.7388C48.7812 83.7383 47.3893 83.1654 46.3587 82.1446L46.3224 82.1078C38.8472 74.6343 34.3687 61.0914 39.5804 51.6623C39.6661 51.5108 39.6959 51.3346 39.6647 51.1635C39.6336 50.9924 39.5434 50.8374 39.4098 50.7263C39.2763 50.6148 39.108 50.5537 38.9341 50.5537C38.7601 50.5537 38.5917 50.6148 38.4582 50.7263L25.0387 64.9558Z" fill="url(#paint0_linear_206:3)"/>
+                        <defs>
+                        <linearGradient id="paint0_linear_206:3" x1="50.2282" y1="8.57555" x2="50.2282" y2="104.132" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#551AFE"/>
+                        <stop offset="1" stop-color="#FE1A95"/>
+                        </linearGradient>
+                        </defs>
+                        </svg>
+                </div>
+
+                <nav class="b-navigation">
+                    <ul>
+                        <h3>MOBILE DEVELOPMENT</h3>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Courses</a>
+                        </li>
+                        <li>
+                            <a href="#">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <h3>WEB DEVELOPMENT</h3>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Courses</a>
+                        </li>
+                        <li>
+                            <a href="#">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <h3>LEARNING PLATFORM</h3>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Courses</a>
+                        </li>
+                        <li>
+                            <a href="#">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>©All Rights Reserved, Lorem Ipsum</p>
+    </footer>
+</body>
+</html>
